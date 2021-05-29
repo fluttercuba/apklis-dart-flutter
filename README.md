@@ -35,3 +35,5 @@
 </p>
 
 ---
+
+Ecosistema de [paquetes](https://pub.dev) para [Dart](https://dart.dev) y [Flutter](https://flutter.dev) desarrollados y mantenidos por la comunidad de [Flutter Cuba](https://github.com/fluttercuba) relacionados con la tienda cubana de aplicaciones para dispositivos Android llamada [Apklis](https://apklis.cu).
