@@ -14,6 +14,9 @@
     <a href="https://pub.dev/packages/lint" target="_blank">
         <img src="https://img.shields.io/badge/style-lint-4BC0F5.svg" alt="Lint">
     </a>
+</p>
+
+<p align="center">
     <a href="https://github.com/fluttercuba/apklis-dart-flutter/commits" target="_blank">
         <img src="https://img.shields.io/github/last-commit/fluttercuba/apklis-dart-flutter.svg?style=flat" alt="Last commit"/>
     </a>
