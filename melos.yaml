@@ -1,0 +1,4 @@
+name: apklis_dart_flutter
+
+packages:
+  - packages/**
