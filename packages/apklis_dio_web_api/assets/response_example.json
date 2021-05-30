@@ -1,0 +1,180 @@
+{
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "facets": {},
+    "results": [
+        {
+            "icon": "https://archive.apklis.cu/application/icon/club.postdata.covid19cuba-v14.png",
+            "background": "",
+            "package_name": "club.postdata.covid19cuba",
+            "name": "Covid19 Cuba Data",
+            "video_url": "",
+            "video_img": "",
+            "description": "<p>Proyecto para conocer los reportes diarios, estadísticas, etc. respecto a la Covid-19 en Cuba.</p><p>Sitio Web: <a href=\"https://covid19cubadata.github.io\">https://covid19cubadata.github.io</a></p><p>Autores:</p><p>- MatCom: <a href=\"http://www.matcom.uh.cu\">http://www.matcom.uh.cu</a></p><p>- Postdata.club: <a href=\"https://www.postdata.club\">https://www.postdata.club</a></p><p>- Juventud Técnica: <a href=\"https://medium.com/juventud-técnica\">https://medium.com/juventud-técnica</a></p><p>Los datos se actualizan a partir de la información oficial del MINSAP informados por las autoridades al día siguiente.</p><p>Canal de Telegram: <a href=\"Aplicación para conocer los reportes diarios, estadísticas, etc respecto a la Covid-19 en Cuba.  Los datos se actualizan a partir de la información oficial del MINSAP informados por las autoridades al día siguiente.  Canal de Telegram: https://t.me/covid19cubadata  Grupo de Telegram: https://t.me/covid19cubadata\">https://t.me/covid19cubadata</a></p><p>Grupo de Telegram: <a href=\"Aplicación para conocer los reportes diarios, estadísticas, etc respecto a la Covid-19 en Cuba.  Los datos se actualizan a partir de la información oficial del MINSAP informados por las autoridades al día siguiente.  Canal de Telegram: https://t.me/covid19cubadata  Grupo de Telegram: https://t.me/covid19cubadatachat\">https://t.me/covid19cubadatachat</a></p>",
+            "updated": "2020-07-20T14:03:06+00:00",
+            "sale_count": 0,
+            "download_count": 354838,
+            "price": 0.0,
+            "rating": 4.066666666666666,
+            "sponsored": 0,
+            "with_db": false,
+            "reviews_star_1": 24,
+            "reviews_star_2": 5,
+            "reviews_star_3": 6,
+            "reviews_star_4": 17,
+            "reviews_star_5": 98,
+            "releases_count": 14,
+            "reviews_count": 150,
+            "categories": [
+                {
+                    "id": 3,
+                    "name": "Utilidades",
+                    "icon": "utils",
+                    "group": "Applications",
+                    "icon_url": "https://archive.apklis.cu/category/Utilidades_b48JMjB.png"
+                },
+                {
+                    "id": 50,
+                    "name": "Internet",
+                    "icon": "internet",
+                    "group": "Applications",
+                    "icon_url": "https://archive.apklis.cu/category/Internet_feq0fhU.png"
+                },
+                {
+                    "id": 46,
+                    "name": "Medicina",
+                    "icon": "medicine",
+                    "group": "Applications",
+                    "icon_url": "https://archive.apklis.cu/category/Medicina.png"
+                },
+                {
+                    "id": 44,
+                    "name": "Mapas y navegación",
+                    "icon": "maps",
+                    "group": "Applications",
+                    "icon_url": "https://archive.apklis.cu/category/MapasNavegaci%C3%B3n.png"
+                },
+                {
+                    "id": 6,
+                    "name": "Noticias y revistas",
+                    "icon": "news_magazines",
+                    "group": "Applications",
+                    "icon_url": "https://archive.apklis.cu/category/NoticiasRevistas.png"
+                },
+                {
+                    "id": 5,
+                    "name": "Salud y bienestar",
+                    "icon": "health",
+                    "group": "Applications",
+                    "icon_url": "https://archive.apklis.cu/category/SaludBienestar.png"
+                },
+                {
+                    "id": 1,
+                    "name": "Cuba",
+                    "icon": "cubans",
+                    "group": "Applications",
+                    "icon_url": "https://archive.apklis.cu/category/Aplicaciones_y_juegos_cubanos.png"
+                }
+            ],
+            "size": 13842621,
+            "developer": {
+                "username": "leynier",
+                "first_name": "Leynier",
+                "last_name": "Gutiérrez González",
+                "fullname": "Leynier Gutiérrez González",
+                "avatar": "https://archive.apklis.cu/user/avatar/avatar_zF8cIFo.png",
+                "background": null,
+                "apps": 3,
+                "is_active": true,
+                "description": "leynier.github.io"
+            },
+            "last_release": {
+                "abi": [
+                    {
+                        "abi": "armeabi-v7a"
+                    }
+                ],
+                "no_abi": false,
+                "version_name": "v1.0.0",
+                "package_name": "club.postdata.covid19cuba",
+                "app_name": "Covid19 Cuba Data",
+                "version_sdk_name": "Jelly Bean 4.1.x",
+                "version_target_sdk_name": "Pie 9.0",
+                "permissions": [
+                    {
+                        "icon": "",
+                        "description": "",
+                        "name": "Get tasks"
+                    },
+                    {
+                        "icon": "",
+                        "description": "",
+                        "name": "Internet"
+                    },
+                    {
+                        "icon": "",
+                        "description": "",
+                        "name": "Receive boot completed"
+                    },
+                    {
+                        "icon": "",
+                        "description": "",
+                        "name": "Vibrate"
+                    },
+                    {
+                        "icon": "",
+                        "description": "",
+                        "name": "Wake lock"
+                    }
+                ],
+                "screenshots": [
+                    {
+                        "description": "",
+                        "img": "https://archive.apklis.cu/application/screenshot/photo_2020-07-20_05-39-37.jpg"
+                    },
+                    {
+                        "description": "",
+                        "img": "https://archive.apklis.cu/application/screenshot/photo_2020-07-20_05-39-42.jpg"
+                    },
+                    {
+                        "description": "",
+                        "img": "https://archive.apklis.cu/application/screenshot/photo_2020-07-20_05-39-47.jpg"
+                    },
+                    {
+                        "description": "",
+                        "img": "https://archive.apklis.cu/application/screenshot/photo_2020-07-20_05-39-50.jpg"
+                    },
+                    {
+                        "description": "",
+                        "img": "https://archive.apklis.cu/application/screenshot/photo_2020-07-20_05-39-52.jpg"
+                    },
+                    {
+                        "description": "",
+                        "img": "https://archive.apklis.cu/application/screenshot/photo_2020-07-20_05-39-55.jpg"
+                    },
+                    {
+                        "description": "",
+                        "img": "https://archive.apklis.cu/application/screenshot/photo_2020-07-20_05-39-58.jpg"
+                    },
+                    {
+                        "description": "",
+                        "img": "https://archive.apklis.cu/application/screenshot/photo_2020-07-20_05-40-01.jpg"
+                    }
+                ],
+                "changelog": "<p>1. Reducción del tamaño de la aplicación a la mitad del tamaño de la versión anterior.</p><p>2. Nuevas imágenes y descripciones al carrusel inicial de bienvenida.</p><p>3. Separación de hombres y mujeres en la gráfica de Distribución por rangos etarios en la sección de gráficas General de Cuba.</p><p>4. Gráficas de casos sintomáticos/asintomáticos en la sección de gráficas General de Cuba.</p><p>5. Gráficas de la evolución de las personas en vigilancia en la sección de gráficas General de Cuba.</p><p>6. Gráficas de la evolución de las personas hospitalizadas en la sección de gráficas General de Cuba.</p><p>7. Sección de gráficos de casos Fallecidos en Cuba.</p><p>8. Más fuentes de noticias como Juventud Técnica, la Agencia Cubana de Noticias, Cubadebate, entre otras.</p><p>9. Fráfica de radar de comparación de varios parámetros de Cuba con otros países en la sección de Mundo.</p><p>10. Sección de boletines del Centro de Estudios Demográficos (CEDEM) de la Universidad de La Habana enfocados en la temática de la COVID-19.</p><p>11. Sección con las medidas de cada fase de la etapa de recuperación post Covid-19, así como la fase en la que se encuentran las provincias</p><p>12. Sección de descargas con las bases de datos utilizadas en diferentes formatos.</p><p>13. Sección con los protocolos de actuación, con alcance nacional, que contribuyen a la prevención, control y manejo de los casos relacionados con la enfermedad de la Covid-19.</p><p>14. Registro manual de las personas con que tuvo contacto (además de la fecha y el lugar) para mejorar y ayudar la labor de las autoridades satinarías en la lucha contra la pandemia.</p><p>15. Sección de Atención a la Población con los números telefónicos de cada provincia para la Covid-19.</p><p>16. Configuración de proxy para los usuarios que utilizan una red corporativa, estudiantil, etc. en la que se necesite configurar un proxy.</p><p>17. Configuración de las notificaciones por tipo de notificación y por horario del día.</p>",
+                "version_code": 14,
+                "published": "2020-07-20T14:03:06.180774Z",
+                "sha256": "ffbca10a07c2e0f922dc31d1470ec823df0b395fc0c79f3d4e06efd669288cf1",
+                "size": "13.20 MB",
+                "icon": "https://archive.apklis.cu/application/icon/club.postdata.covid19cuba-v14.png",
+                "public": true,
+                "beta": false,
+                "version_sdk": "Jelly Bean 4.1.x",
+                "version_target_sdk": "Pie 9.0",
+                "deleted": false
+            },
+            "announced": false
+        }
+    ]
+}
