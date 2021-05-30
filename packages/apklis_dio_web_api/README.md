@@ -1,8 +1,11 @@
 <h1 align="center">Apklis Dio Web API</h1>
 
 <p align="center">
-        <a href="https://opensource.org/licenses/MIT" target="_blank">
+    <a href="https://opensource.org/licenses/MIT" target="_blank">
         <img src="https://img.shields.io/badge/License-MIT-green.svg?label=license" alt="License: MIT"/>
+    </a>
+    <a href="https://github.com/fluttercuba/apklis-dart-flutter/actions/workflows/test.yml" target="_blank">
+        <img src="https://github.com/fluttercuba/apklis-dart-flutter/actions/workflows/test.yml/badge.svg" alt="Test"/>
     </a>
     <a href="https://pub.dev/packages/apklis_dio_web_api" target="_blank">
         <img src="https://img.shields.io/pub/v/apklis_dio_web_api" alt="Version"/>

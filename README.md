@@ -8,6 +8,9 @@
     <a href="https://opensource.org/licenses/MIT" target="_blank">
         <img src="https://img.shields.io/badge/License-MIT-green.svg?label=license" alt="License: MIT"/>
     </a>
+    <a href="https://github.com/fluttercuba/apklis-dart-flutter/actions/workflows/test.yml" target="_blank">
+        <img src="https://github.com/fluttercuba/apklis-dart-flutter/actions/workflows/test.yml/badge.svg" alt="Test"/>
+    </a>
     <a href="https://github.com/invertase/melos" target="_blank">
         <img src="https://img.shields.io/badge/maintained%20with-melos-f700ff.svg?style=flat-square" alt="Melos"/>
     </a>
