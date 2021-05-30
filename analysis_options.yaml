@@ -1,0 +1,22 @@
+include: package:lint/analysis_options_package.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - lib/generated_plugin_registrant.dart
+    - lib/**/*.config.dart
+    - lib/**/*.freezed.dart
+    - lib/**/*.g.dart
+  strong-mode:
+    implicit-casts: false
+  errors:
+    todo: warning
+
+linter:
+  rules:
+    always_use_package_imports: true
+    avoid_classes_with_only_static_members: false
+    avoid_positional_boolean_parameters: false
+    constant_identifier_names: false
+    prefer_function_declarations_over_variables: false
+    prefer_single_quotes: true
