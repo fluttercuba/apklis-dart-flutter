@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https:/github.com/fluttercuba">
-        <img src="resources/apklis.png"><br alt=""/>
+        <img src="resources/banner.png"><br alt=""/>
     </a>
 </p>
 
