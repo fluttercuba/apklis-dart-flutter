@@ -1,0 +1,26 @@
+name: test
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Git Checkout'
+        uses: actions/checkout@v2
+
+      - name: 'Install Dart'
+        uses: dart-lang/setup-dart@v1
+
+      - name: 'Install Tools'
+        run: dart pub global activate melos
+
+      - name: 'Bootstrap Workspace'
+        run: dart pub global run melos bootstrap
+
+      - name: 'Test'
+        run: dart pub global run melos run test
