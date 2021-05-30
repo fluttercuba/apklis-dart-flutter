@@ -39,7 +39,7 @@ void main() {
         expect(result.results.isNotEmpty, true);
       },
       failure: (error) {
-        throw Exception('Result should be success.');
+        throw Exception('Result should be success. Error: $error');
       },
     );
   });
