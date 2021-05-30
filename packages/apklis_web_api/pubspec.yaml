@@ -1,6 +1,6 @@
 name: apklis_web_api
 description: Interfaz para la posterior implementación de un paquete en Dart para interactuar con la API de Apklis.
-version: 0.0.1+2
+version: 0.0.1+3
 homepage: https://github.com/fluttercuba/apklis-dart-flutter
 
 environment:

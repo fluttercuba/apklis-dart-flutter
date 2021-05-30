@@ -1,3 +1,8 @@
+## 0.0.1+3
+
+ - **FIX**: follow dart convention of description in pubspec.
+ - **CI**: fix some scripts of melos.yaml.
+
 ## 0.0.1+2
 
  - **DOCS**: add test badge to READMEs.
