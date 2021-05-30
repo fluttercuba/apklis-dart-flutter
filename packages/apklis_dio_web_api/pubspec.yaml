@@ -4,7 +4,7 @@ version: 0.0.1+1
 homepage: https://github.com/fluttercuba/apklis-dart-flutter
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
   apklis_web_api: ^0.0.1+2

@@ -5,13 +5,13 @@ packages:
 
 scripts:
   build:
-    run: melos exec "flutter pub run build_runner build --delete-conflicting-outputs"
+    run: melos exec -c 1 "flutter pub get && flutter pub run build_runner build --delete-conflicting-outputs"
 
   test:
     run: melos exec -c 1 "flutter test"
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
 
 dev_dependencies:
   lint: ^1.5.3
