@@ -1,6 +1,6 @@
 name: apklis_direct_payment_checker
 description: Paquete de Flutter para el chequeo de pagos de Apklis. Basado en el repositorio para Kotlin y Java https://github.com/Z17-CU/apklischeckpayment
-version: 0.0.0
+version: 0.0.1
 homepage: https://github.com/fluttercuba/apklis-dart-flutter
 
 environment:
