@@ -1,13 +1,13 @@
 name: apklis_dio_web_api
 description: Implementación concreta del paquete apklis_web_api para interactuar con la API de Apklis utilizando el paquete dio.
-version: 0.0.1
+version: 0.0.1+1
 homepage: https://github.com/fluttercuba/apklis-dart-flutter
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  apklis_web_api: ^0.0.1+1
+  apklis_web_api: ^0.0.1+2
   dio: ^4.0.0
 
 dev_dependencies:

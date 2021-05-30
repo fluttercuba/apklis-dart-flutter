@@ -1,3 +1,7 @@
+## 0.0.1+2
+
+ - **DOCS**: add test badge to READMEs.
+
 ## 0.0.1+1
 
  - **FIX**: fix year of the License.
