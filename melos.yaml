@@ -2,3 +2,7 @@ name: apklis_dart_flutter
 
 packages:
   - packages/**
+
+scripts:
+  build:
+    run: melos exec "dart pub run build_runner build --delete-conflicting-outputs"
