@@ -5,9 +5,12 @@ edit_uri: https://github.com/fluttercuba/apklis-dart-flutter/edit/main/docs
 
 theme:
   name: material
-  language: en
+  logo: resources/avatar.jpg
+  favicon: resources/avatar.jpg
+  language: es
   features:
     - navigation.instant
+    - navigation.tabs
   palette:
     primary: black
     accent: light blue
@@ -22,6 +25,8 @@ markdown_extensions:
   - pymdownx.snippets
   - toc:
       permalink: 🔗
+
+copyright: Desarrollado con ♥️ por Flutter Cuba
 
 extra:
   social:
