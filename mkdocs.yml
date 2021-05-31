@@ -9,14 +9,14 @@ theme:
   favicon: resources/avatar.jpg
   language: es
   features:
-    - navigation.instant
-    - navigation.tabs
+    # - navigation.instant
+    # - navigation.tabs
   palette:
     primary: black
     accent: light blue
 
 nav:
-  - Home: index.md
+  - Inicio: index.md
 
 markdown_extensions:
   - pymdownx.highlight
