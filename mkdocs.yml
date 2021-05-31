@@ -1,12 +1,12 @@
-site_name: Apklis Dart/Flutter Ecosystem
+site_name: Apklis Dart Flutter
 site_url: https://github.com/fluttercuba/apklis-dart-flutter
 repo_url: https://github.com/fluttercuba/apklis-dart-flutter
 edit_uri: https://github.com/fluttercuba/apklis-dart-flutter/edit/main/docs
 
 theme:
   name: material
-  logo: resources/avatar.jpg
-  favicon: resources/avatar.jpg
+  logo: resources/avatar.png
+  favicon: resources/avatar.png
   language: es
   features:
     # - navigation.instant
