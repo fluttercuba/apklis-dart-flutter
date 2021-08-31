@@ -22,7 +22,7 @@ jobs:
       - name: Bootstrap Workspace
         run: flutter pub global run melos bootstrap
 
-      - name: Test
+      - name: Run Tests
         run: flutter pub global run melos run test
 
       - name: Install NodeJS
@@ -34,10 +34,12 @@ jobs:
       - name: Merge lcov files
         run: lcov-result-merger 'packages/**/coverage/lcov.info' 'lcov.info'
       
+      - name: Show lcov.info
+
       - name: Check Code Coverage
         uses: VeryGoodOpenSource/very_good_coverage@v1.1.1
         with:
           path: lcov.info
 
-      - name: Upload coverage to Codecov
+      - name: Upload Coverage to Codecov
         uses: codecov/codecov-action@v1
