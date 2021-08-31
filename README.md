@@ -5,6 +5,7 @@
 </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?label=license)](https://opensource.org/licenses/MIT)
+[![codecov](https://codecov.io/gh/fluttercuba/apklis-dart-flutter/branch/main/graph/badge.svg?token=RTBS8EX4GQ)](https://codecov.io/gh/fluttercuba/apklis-dart-flutter)
 [![Test](https://github.com/fluttercuba/apklis-dart-flutter/actions/workflows/test.yml/badge.svg)](https://github.com/fluttercuba/apklis-dart-flutter/actions/workflows/test.yml)
 [![Melos](https://img.shields.io/badge/maintained%20with-melos-f700ff.svg?style=flat-square)](https://github.com/invertase/melos) [![Lint](https://img.shields.io/badge/style-lint-4BC0F.svg)](https://pub.dev/packages/lint)
 [![Last commit](https://img.shields.io/github/last-commit/fluttercuba/apklis-dart-flutter.svg?style=flat)](https://github.com/fluttercuba/apklis-dart-flutter/commits)

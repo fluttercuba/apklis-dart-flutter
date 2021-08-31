@@ -31,15 +31,21 @@ jobs:
 
       - name: Install lcov-result-merger
         run: npm i -g lcov-result-merger
-      
+
       - name: Merge lcov files
         run: lcov-result-merger 'packages/**/coverage/lcov.info' 'coverage/lcov.info'
-      
+
+      - name: Print coverage/lcov.info
+        run: cat coverage/lcov.info
+
       - name: Install remove_from_coverage
         run: flutter pub global activate remove_from_coverage
-      
+
       - name: Run remove_from_coverage
         run: flutter pub global run remove_from_coverage -f coverage/lcov.info -r "\.freezed\.dart$","\.g\.dart$","\.config\.dart$","generated_plugin_registrant.dart$"
+
+      - name: Print coverage/lcov.info
+        run: cat coverage/lcov.info
 
       - name: Upload Coverage to Codecov
         uses: codecov/codecov-action@v1
