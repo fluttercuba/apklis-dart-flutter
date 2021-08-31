@@ -21,6 +21,7 @@ void main() {
       packageName: 'com.example.nova.prosalud',
       version: '0.0.1',
       buildNumber: '1',
+      buildSignature: '',
     );
   });
 
