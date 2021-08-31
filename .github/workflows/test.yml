@@ -35,6 +35,7 @@ jobs:
         run: lcov-result-merger 'packages/**/coverage/lcov.info' 'lcov.info'
       
       - name: Show lcov.info
+        run: cat lcov.info
 
       - name: Check Code Coverage
         uses: VeryGoodOpenSource/very_good_coverage@v1.1.1
