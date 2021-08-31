@@ -14,32 +14,38 @@ jobs:
       - name: Git Checkout
         uses: actions/checkout@v2
 
-      - name: Install Flutter
-        uses: subosito/flutter-action@v1
-
-      - name: Install Tools
-        run: flutter pub global activate melos
-
-      - name: Bootstrap Workspace
-        run: flutter pub global run melos bootstrap
-
-      - name: Run Tests
-        run: flutter pub global run melos run test
-
       - name: Install NodeJS
         uses: actions/setup-node@v2
 
       - name: Install lcov-result-merger
         run: npm i -g lcov-result-merger
 
+      - name: Install Flutter
+        uses: subosito/flutter-action@v1
+
+      - name: Install 'Remove from coverage'
+        run: flutter pub global activate remove_from_coverage
+
+      - name: Install Melos
+        run: flutter pub global activate melos
+
+      - name: Run Melos Bootstrap
+        run: flutter pub global run melos bootstrap
+
+      - name: Run Tests
+        run: flutter pub global run melos run test
+
       - name: Merge lcov files
         run: lcov-result-merger 'packages/**/coverage/lcov.info' 'coverage/lcov.info'
 
-      - name: Install remove_from_coverage
-        run: flutter pub global activate remove_from_coverage
-
-      - name: Run remove_from_coverage
+      - name: Run 'Remove from coverage'
         run: flutter pub global run remove_from_coverage -f coverage/lcov.info -r "\.freezed\.dart$","\.g\.dart$","\.config\.dart$","generated_plugin_registrant.dart$"
+
+      # - name: Enforce a minimum code coverage threshold
+      #   uses: VeryGoodOpenSource/very_good_coverage@v1.1.1
+      #   with:
+      #     path: "./coverage/lcov.info"
+      #     min_coverage: 80
 
       - name: Upload Coverage to Codecov
         uses: codecov/codecov-action@v1
