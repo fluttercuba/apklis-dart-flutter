@@ -41,11 +41,11 @@ jobs:
       - name: Run 'Remove from coverage'
         run: flutter pub global run remove_from_coverage -f coverage/lcov.info -r "\.freezed\.dart$","\.g\.dart$","\.config\.dart$","generated_plugin_registrant.dart$"
 
-      - name: Enforce a minimum code coverage threshold
-        uses: VeryGoodOpenSource/very_good_coverage@v1.1.1
-        with:
-          path: "./coverage/lcov.info"
-          min_coverage: 80
+      # - name: Enforce a minimum code coverage threshold
+      #   uses: VeryGoodOpenSource/very_good_coverage@v1.1.1
+      #   with:
+      #     path: "./coverage/lcov.info"
+      #     min_coverage: 80
 
       - name: Upload Coverage to Codecov
         uses: codecov/codecov-action@v1
