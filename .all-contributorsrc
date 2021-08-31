@@ -12,7 +12,9 @@
       "profile": "http://leynier.github.io",
       "contributions": [
         "code",
-        "maintenance"
+        "maintenance",
+        "test",
+        "bug"
       ]
     }
   ],
