@@ -14,7 +14,7 @@ scripts:
     run: melos exec -c 1 "flutter analyze"
 
   test:only:
-    run: melos exec -c 1 "flutter test --coverage"
+    run: melos exec -c 1 "flutter test --no-pub --coverage"
 
   test:
     run: |

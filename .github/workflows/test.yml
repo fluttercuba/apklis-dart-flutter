@@ -35,13 +35,11 @@ jobs:
       - name: Merge lcov files
         run: lcov-result-merger 'packages/**/coverage/lcov.info' 'lcov.info'
       
-      # - name: Show lcov.info
-      #   run: cat lcov.info
-
-      # - name: Check Code Coverage
-      #   uses: VeryGoodOpenSource/very_good_coverage@v1.1.1
-      #   with:
-      #     path: lcov.info
+      - name: Install remove_from_coverage
+        run: flutter pub global activate remove_from_coverage
+      
+      - name: Run remove_from_coverage
+        run: flutter pub global run remove_from_coverage -f lcov.info -r "\.freezed\.dart$","\.g\.dart$","\.config\.dart$","generated_plugin_registrant.dart$"
 
       - name: Upload Coverage to Codecov
         uses: codecov/codecov-action@v1
