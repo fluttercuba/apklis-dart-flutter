@@ -15,10 +15,18 @@ void main() {
         'username': 'example',
       };
     });
+    PackageInfo.disablePackageInfoPlatformOverride = true;
+    PackageInfo.setMockInitialValues(
+      appName: 'App Example',
+      packageName: 'com.example.nova.prosalud',
+      version: '0.0.1',
+      buildNumber: '1',
+    );
   });
 
   tearDown(() {
     channel.setMockMethodCallHandler(null);
+    PackageInfo.disablePackageInfoPlatformOverride = false;
   });
 
   test('isPurchased with packageId', () async {
@@ -29,12 +37,6 @@ void main() {
   });
 
   test('isPurchased without packageId', () async {
-    PackageInfo.setMockInitialValues(
-      appName: 'App Example',
-      packageName: 'com.example.nova.prosalud',
-      version: '0.0.1',
-      buildNumber: '1',
-    );
     final status = await ApklisDirectPaymentChecker.isPurchased();
     expect(status.paid, false);
     expect(status.username, 'example');
