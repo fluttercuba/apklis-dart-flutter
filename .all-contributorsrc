@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "leynier",
+      "name": "Leynier Gutiérrez González",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36774373?v=4",
+      "profile": "http://leynier.github.io",
+      "contributions": [
+        "code",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "apklis-dart-flutter",
+  "projectOwner": "fluttercuba",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
