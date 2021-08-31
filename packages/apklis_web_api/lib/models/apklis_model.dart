@@ -5,11 +5,6 @@ part 'apklis_model.g.dart';
 
 @JsonSerializable(explicitToJson: true)
 class ApklisModel {
-  final int count;
-  final String? next;
-  final String? previous;
-  final List<ApklisItemModel> results;
-
   const ApklisModel({
     required this.count,
     required this.next,
@@ -17,7 +12,12 @@ class ApklisModel {
     required this.results,
   });
 
-  factory ApklisModel.fromJson(Map<String, dynamic> json) =>
+  final int count;
+  final String? next;
+  final String? previous;
+  final List<ApklisItemModel> results;
+
+  static ApklisModel fromJson(Map<String, dynamic> json) =>
       _$ApklisModelFromJson(json);
 
   Map<String, dynamic> toJson() => _$ApklisModelToJson(this);

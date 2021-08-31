@@ -20,3 +20,5 @@ linter:
     constant_identifier_names: false
     prefer_function_declarations_over_variables: false
     prefer_single_quotes: true
+    sort_constructors_first: true
+    unawaited_futures: true

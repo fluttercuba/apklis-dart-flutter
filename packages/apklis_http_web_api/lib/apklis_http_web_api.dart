@@ -8,9 +8,9 @@ import 'package:apklis_web_api/models/models.dart';
 import 'package:http/http.dart';
 
 class ApklisHttpWebApi extends ApklisWebApi {
-  final BaseClient httpClient;
-
   ApklisHttpWebApi(this.httpClient);
+
+  final BaseClient httpClient;
 
   @override
   Future<ApklisApiResult> getByUri(Uri uri) async {

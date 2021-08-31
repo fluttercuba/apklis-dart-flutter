@@ -6,9 +6,9 @@ import 'package:apklis_web_api/models/models.dart';
 import 'package:dio/dio.dart';
 
 class ApklisDioWebApi extends ApklisWebApi {
-  final Dio dioClient;
-
   ApklisDioWebApi(this.dioClient);
+
+  final Dio dioClient;
 
   @override
   Future<ApklisApiResult> getByUri(Uri uri) async {

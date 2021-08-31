@@ -5,6 +5,35 @@ part 'apklis_item_model.g.dart';
 
 @JsonSerializable(explicitToJson: true)
 class ApklisItemModel {
+  const ApklisItemModel({
+    required this.icon,
+    required this.background,
+    required this.packageName,
+    required this.name,
+    required this.videoUrl,
+    required this.videoImg,
+    required this.description,
+    required this.updated,
+    required this.saleCount,
+    required this.downloadCount,
+    required this.price,
+    required this.rating,
+    required this.sponsored,
+    required this.withDb,
+    required this.reviewsStar1,
+    required this.reviewsStar2,
+    required this.reviewsStar3,
+    required this.reviewsStar4,
+    required this.reviewsStar5,
+    required this.releasesCount,
+    required this.reviewsCount,
+    required this.categories,
+    required this.size,
+    required this.developer,
+    required this.lastRelease,
+    required this.announced,
+  });
+
   final String icon;
   final String background;
   @JsonKey(name: 'package_name')
@@ -46,36 +75,7 @@ class ApklisItemModel {
   final ApklisReleaseModel lastRelease;
   final bool announced;
 
-  const ApklisItemModel({
-    required this.icon,
-    required this.background,
-    required this.packageName,
-    required this.name,
-    required this.videoUrl,
-    required this.videoImg,
-    required this.description,
-    required this.updated,
-    required this.saleCount,
-    required this.downloadCount,
-    required this.price,
-    required this.rating,
-    required this.sponsored,
-    required this.withDb,
-    required this.reviewsStar1,
-    required this.reviewsStar2,
-    required this.reviewsStar3,
-    required this.reviewsStar4,
-    required this.reviewsStar5,
-    required this.releasesCount,
-    required this.reviewsCount,
-    required this.categories,
-    required this.size,
-    required this.developer,
-    required this.lastRelease,
-    required this.announced,
-  });
-
-  factory ApklisItemModel.fromJson(Map<String, dynamic> json) =>
+  static ApklisItemModel fromJson(Map<String, dynamic> json) =>
       _$ApklisItemModelFromJson(json);
 
   Map<String, dynamic> toJson() => _$ApklisItemModelToJson(this);

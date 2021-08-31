@@ -5,6 +5,29 @@ part 'apklis_release_model.g.dart';
 
 @JsonSerializable(explicitToJson: true)
 class ApklisReleaseModel {
+  const ApklisReleaseModel({
+    required this.abi,
+    required this.noAbi,
+    required this.versionName,
+    required this.packageName,
+    required this.appName,
+    required this.versionSdkName,
+    required this.versionTargetSdkName,
+    required this.permissions,
+    required this.screenshots,
+    required this.changelog,
+    required this.versionCode,
+    required this.published,
+    required this.sha256,
+    required this.size,
+    required this.icon,
+    required this.public,
+    required this.beta,
+    required this.versionSdk,
+    required this.versionTargetSdk,
+    required this.deleted,
+  });
+
   final List<ApklisAbiModel> abi;
   @JsonKey(name: 'no_abi')
   final bool noAbi;
@@ -35,30 +58,7 @@ class ApklisReleaseModel {
   final String versionTargetSdk;
   final bool deleted;
 
-  const ApklisReleaseModel({
-    required this.abi,
-    required this.noAbi,
-    required this.versionName,
-    required this.packageName,
-    required this.appName,
-    required this.versionSdkName,
-    required this.versionTargetSdkName,
-    required this.permissions,
-    required this.screenshots,
-    required this.changelog,
-    required this.versionCode,
-    required this.published,
-    required this.sha256,
-    required this.size,
-    required this.icon,
-    required this.public,
-    required this.beta,
-    required this.versionSdk,
-    required this.versionTargetSdk,
-    required this.deleted,
-  });
-
-  factory ApklisReleaseModel.fromJson(Map<String, dynamic> json) =>
+  static ApklisReleaseModel fromJson(Map<String, dynamic> json) =>
       _$ApklisReleaseModelFromJson(json);
 
   Map<String, dynamic> toJson() => _$ApklisReleaseModelToJson(this);
