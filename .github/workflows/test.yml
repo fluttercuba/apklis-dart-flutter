@@ -1,11 +1,6 @@
 name: test
 
-on:
-  pull_request:
-  push:
-    branches:
-      - main
-      - develop
+on: [push, pull_request]
 
 jobs:
   test:
@@ -48,6 +43,7 @@ jobs:
       #     min_coverage: 80
 
       - name: Upload Coverage to Codecov
+        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
         uses: codecov/codecov-action@v1
         with:
           files: coverage/lcov.info
