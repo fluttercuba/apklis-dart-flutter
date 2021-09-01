@@ -5,11 +5,6 @@ import 'package:apklis_web_api/apklis_api_result.dart';
 abstract class ApklisWebApi {
   static const API_URL = 'https://api.apklis.cu';
 
-  Future<ApklisApiResult> get(List<String> apps) {
-    final uri = buildUri(apps);
-    return getByUri(uri);
-  }
-
   static Uri buildUri(List<String> apps) {
     final uri = Uri.https(
       'api.apklis.cu',
@@ -19,5 +14,5 @@ abstract class ApklisWebApi {
     return uri;
   }
 
-  Future<ApklisApiResult> getByUri(Uri uri);
+  Future<ApklisApiResult> get(List<String> apps);
 }
