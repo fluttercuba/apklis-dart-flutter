@@ -13,8 +13,9 @@ class ApklisHttpWebApi extends ApklisWebApi {
   final BaseClient httpClient;
 
   @override
-  Future<ApklisApiResult> getByUri(Uri uri) async {
+  Future<ApklisApiResult> get(List<String> apps) async {
     try {
+      final uri = ApklisWebApi.buildUri(apps);
       final response = await httpClient.get(uri);
       if (response.statusCode == 200) {
         var text = '';
