@@ -25,16 +25,13 @@ jobs:
         run: flutter pub global activate melos
 
       - name: Run Melos Bootstrap
-        run: flutter pub global run melos bootstrap
+        run: melos bs
 
       - name: Run Tests
-        run: flutter pub global run melos run test
+        run: melos run test
 
-      - name: Merge lcov files
-        run: lcov-result-merger 'packages/**/coverage/lcov.info' 'coverage/lcov.info'
-
-      - name: Run 'Remove from coverage'
-        run: flutter pub global run remove_from_coverage -f coverage/lcov.info -r "\.freezed\.dart$","\.g\.dart$","\.config\.dart$","generated_plugin_registrant.dart$"
+      - name: Run Coverage
+        run: melos run coverage
 
       # - name: Enforce a minimum code coverage threshold
       #   uses: VeryGoodOpenSource/very_good_coverage@v1.1.1

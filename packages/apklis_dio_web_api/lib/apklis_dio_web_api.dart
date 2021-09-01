@@ -11,8 +11,9 @@ class ApklisDioWebApi extends ApklisWebApi {
   final Dio dioClient;
 
   @override
-  Future<ApklisApiResult> getByUri(Uri uri) async {
+  Future<ApklisApiResult> get(List<String> apps) async {
     try {
+      final uri = ApklisWebApi.buildUri(apps);
       final response = await dioClient.getUri(uri);
       if (response.statusCode == 200) {
         final json = response.data as Map<String, dynamic>;

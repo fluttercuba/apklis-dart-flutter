@@ -1,3 +1,9 @@
+## 0.1.0
+
+> Note: This release has breaking changes.
+
+ - **BREAKING** **REFACTOR**: change api for bether testing.
+
 ## 0.0.1+3
 
  - **FIX**: follow dart convention of description in pubspec.

@@ -22,6 +22,16 @@ scripts:
       melos run test:analyze
       melos run test:only
 
+  coverage:install:
+    run: |
+      npm i -g lcov-result-merger
+      flutter pub global activate remove_from_coverage
+
+  coverage:
+    run: |
+      lcov-result-merger 'packages/**/coverage/lcov.info' coverage/lcov.info
+      remove_from_coverage -f coverage/lcov.info -r "\.freezed\.dart$","\.g\.dart$","\.config\.dart$","generated_plugin_registrant.dart$"
+
 environment:
   sdk: '>=2.12.0 <3.0.0'
 

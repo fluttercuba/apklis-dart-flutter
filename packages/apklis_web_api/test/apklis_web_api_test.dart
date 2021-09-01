@@ -32,6 +32,7 @@ void main() {
     model.when(
       success: (result) {
         expect(result.results.isNotEmpty, true);
+        expect(result.toJson(), resp);
       },
       failure: (error) {
         throw Exception('Result should be success.');
