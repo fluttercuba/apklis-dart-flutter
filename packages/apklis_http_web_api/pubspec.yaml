@@ -1,14 +1,14 @@
 name: apklis_http_web_api
 description: Implementación concreta del paquete apklis_web_api para interactuar
   con la API de Apklis utilizando el paquete http.
-version: 0.0.1+3
+version: 0.0.1+4
 homepage: https://github.com/fluttercuba/apklis-dart-flutter
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
 
 dependencies:
-  apklis_web_api: ^0.1.0
+  apklis_web_api: ^0.1.0+1
   http: ^0.13.3
 
 dev_dependencies:

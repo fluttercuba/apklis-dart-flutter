@@ -21,6 +21,13 @@
 
 Ecosistema de [paquetes](https://pub.dev) para [Dart](https://dart.dev) y [Flutter](https://flutter.dev) desarrollados y mantenidos por la comunidad de [Flutter Cuba](https://github.com/fluttercuba) relacionados con la tienda cubana de aplicaciones para dispositivos Android llamada [Apklis](https://apklis.cu).
 
+## Paquetes 🚀💙
+
+[![Version](https://img.shields.io/pub/v/apklis_web_api?label=Apklis%20Web%20API)](https://pub.dev/packages/apklis_web_api)
+[![Version](https://img.shields.io/pub/v/apklis_dio_web_api?label=Apklis%20Dio%20Web%20API)](https://pub.dev/packages/apklis_dio_web_api)
+[![Version](https://img.shields.io/pub/v/apklis_http_web_api?label=Apklis%20Http%20Web%20API)](https://pub.dev/packages/apklis_http_web_api)
+[![Version](https://img.shields.io/pub/v/apklis_direct_payment_checker?label=Apklis%20Direct%20Payment%20Checker)](https://pub.dev/packages/apklis_direct_payment_checker)
+
 ## Contribuidores ✨
 
 Gracias a estas personas maravillosas ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
