@@ -1,3 +1,7 @@
+## 0.0.1+4
+
+ - **FIX**: update code respect to new version of ApklisWebApi abstract class.
+
 ## 0.0.1+3
 
  - Update a dependency to the latest release.
