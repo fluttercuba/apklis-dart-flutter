@@ -72,4 +72,33 @@ void main() {
       },
     );
   });
+
+  test('check request exception', () async {
+    final apps = ['club.postdata.covid19cuba'];
+    final dio = MockDio();
+    final api = ApklisDioWebApi(dio);
+    final uri = ApklisWebApi.buildUri(apps);
+    when(() => dio.getUri(uri)).thenAnswer(
+      (_) => Future.value(
+        Response(
+          requestOptions: RequestOptions(
+            path: uri.path,
+            baseUrl: uri.origin,
+            method: 'GET',
+          ),
+          statusCode: 200,
+          data: 'error',
+        ),
+      ),
+    );
+    final model = await api.get(['club.postdata.covid19cuba']);
+    model.when(
+      success: (result) {
+        throw Exception('Result should be failure.');
+      },
+      failure: (error) {
+        expect(error.isNotEmpty, true);
+      },
+    );
+  });
 }

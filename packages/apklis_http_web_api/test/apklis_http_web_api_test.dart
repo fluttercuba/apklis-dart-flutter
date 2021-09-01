@@ -49,4 +49,23 @@ void main() {
       },
     );
   });
+
+  test('check request exception', () async {
+    final apps = ['club.postdata.covid19cuba'];
+    final httpClient = MockHttpClient();
+    final api = ApklisHttpWebApi(httpClient);
+    final uri = ApklisWebApi.buildUri(apps);
+    when(() => httpClient.get(uri)).thenAnswer(
+      (_) => Future.value(Response('error', 200)),
+    );
+    final model = await api.get(['club.postdata.covid19cuba']);
+    model.when(
+      success: (result) {
+        throw Exception('Result should be failure.');
+      },
+      failure: (error) {
+        expect(error.isNotEmpty, true);
+      },
+    );
+  });
 }
