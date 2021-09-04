@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:apklis_web_api/apklis_api_result.dart';
 import 'package:apklis_web_api/apklis_web_api.dart';
+import 'package:apklis_web_api/models/apklis_error_model.dart';
 import 'package:apklis_web_api/models/apklis_model.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:test/test.dart';
@@ -36,6 +37,26 @@ void main() {
       },
       failure: (error) {
         throw Exception('Result should be success.');
+      },
+    );
+  });
+
+  test('check error', () async {
+    final api = MockApklisWebApi();
+    when(() => api.get(['club.postdata.covid19cuba'])).thenAnswer(
+      (_) => Future.value(const ApklisApiResult.failure(ApklisErrorModel(
+        statusCode: -1,
+        statusMessage: 'Error',
+      ))),
+    );
+    final model = await api.get(['club.postdata.covid19cuba']);
+    model.when(
+      success: (result) {
+        throw Exception('Result should be failure.');
+      },
+      failure: (error) {
+        expect(error.statusCode, isNot(200));
+        expect(error.statusMessage.isNotEmpty, true);
       },
     );
   });

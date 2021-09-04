@@ -4,6 +4,7 @@ import 'dart:convert';
 
 import 'package:apklis_web_api/apklis_api_result.dart';
 import 'package:apklis_web_api/apklis_web_api.dart';
+import 'package:apklis_web_api/models/apklis_error_model.dart';
 import 'package:apklis_web_api/models/models.dart';
 import 'package:http/http.dart';
 
@@ -28,10 +29,16 @@ class ApklisHttpWebApi extends ApklisWebApi {
         final model = ApklisModel.fromJson(json);
         return ApklisApiResult.success(model);
       } else {
-        return ApklisApiResult.failure(response.reasonPhrase!);
+        return ApklisApiResult.failure(ApklisErrorModel(
+          statusCode: response.statusCode,
+          statusMessage: response.reasonPhrase!,
+        ));
       }
     } catch (e) {
-      return ApklisApiResult.failure(e.toString());
+      return ApklisApiResult.failure(ApklisErrorModel(
+        statusCode: -1,
+        statusMessage: e.toString(),
+      ));
     }
   }
 }

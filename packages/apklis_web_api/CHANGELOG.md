@@ -1,3 +1,13 @@
+## 0.2.0+1
+
+ - **FIX**: remove parser methods to ApklisErrorModel.
+
+## 0.2.0
+
+> Note: This release has breaking changes.
+
+ - **BREAKING** **FEAT**: improve error system.
+
 ## 0.1.0+1
 
  - **DOCS**: update readmes.

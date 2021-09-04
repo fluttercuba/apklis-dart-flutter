@@ -1,3 +1,13 @@
+## 0.1.0+1
+
+ - Update a dependency to the latest release.
+
+## 0.1.0
+
+> Note: This release has breaking changes.
+
+ - **BREAKING** **FEAT**: improve error system.
+
 ## 0.0.1+5
 
  - **DOCS**: update readmes.
