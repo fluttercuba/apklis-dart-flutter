@@ -22,7 +22,7 @@ class _$ApklisApiResultTearOff {
     );
   }
 
-  _FailureApklisApiResult failure(String error) {
+  _FailureApklisApiResult failure(ApklisErrorModel error) {
     return _FailureApklisApiResult(
       error,
     );
@@ -37,13 +37,13 @@ mixin _$ApklisApiResult {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(ApklisModel result) success,
-    required TResult Function(String error) failure,
+    required TResult Function(ApklisErrorModel error) failure,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function(ApklisModel result)? success,
-    TResult Function(String error)? failure,
+    TResult Function(ApklisErrorModel error)? failure,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -146,7 +146,7 @@ class _$_SuccessApklisApiResult implements _SuccessApklisApiResult {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(ApklisModel result) success,
-    required TResult Function(String error) failure,
+    required TResult Function(ApklisErrorModel error) failure,
   }) {
     return success(result);
   }
@@ -155,7 +155,7 @@ class _$_SuccessApklisApiResult implements _SuccessApklisApiResult {
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function(ApklisModel result)? success,
-    TResult Function(String error)? failure,
+    TResult Function(ApklisErrorModel error)? failure,
     required TResult orElse(),
   }) {
     if (success != null) {
@@ -202,7 +202,7 @@ abstract class _$FailureApklisApiResultCopyWith<$Res> {
   factory _$FailureApklisApiResultCopyWith(_FailureApklisApiResult value,
           $Res Function(_FailureApklisApiResult) then) =
       __$FailureApklisApiResultCopyWithImpl<$Res>;
-  $Res call({String error});
+  $Res call({ApklisErrorModel error});
 }
 
 /// @nodoc
@@ -224,7 +224,7 @@ class __$FailureApklisApiResultCopyWithImpl<$Res>
       error == freezed
           ? _value.error
           : error // ignore: cast_nullable_to_non_nullable
-              as String,
+              as ApklisErrorModel,
     ));
   }
 }
@@ -235,7 +235,7 @@ class _$_FailureApklisApiResult implements _FailureApklisApiResult {
   const _$_FailureApklisApiResult(this.error);
 
   @override
-  final String error;
+  final ApklisErrorModel error;
 
   @override
   String toString() {
@@ -264,7 +264,7 @@ class _$_FailureApklisApiResult implements _FailureApklisApiResult {
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
     required TResult Function(ApklisModel result) success,
-    required TResult Function(String error) failure,
+    required TResult Function(ApklisErrorModel error) failure,
   }) {
     return failure(error);
   }
@@ -273,7 +273,7 @@ class _$_FailureApklisApiResult implements _FailureApklisApiResult {
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
     TResult Function(ApklisModel result)? success,
-    TResult Function(String error)? failure,
+    TResult Function(ApklisErrorModel error)? failure,
     required TResult orElse(),
   }) {
     if (failure != null) {
@@ -306,10 +306,10 @@ class _$_FailureApklisApiResult implements _FailureApklisApiResult {
 }
 
 abstract class _FailureApklisApiResult implements ApklisApiResult {
-  const factory _FailureApklisApiResult(String error) =
+  const factory _FailureApklisApiResult(ApklisErrorModel error) =
       _$_FailureApklisApiResult;
 
-  String get error => throw _privateConstructorUsedError;
+  ApklisErrorModel get error => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
   _$FailureApklisApiResultCopyWith<_FailureApklisApiResult> get copyWith =>
       throw _privateConstructorUsedError;

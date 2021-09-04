@@ -68,7 +68,8 @@ void main() {
         throw Exception('Result should be failure.');
       },
       failure: (error) {
-        expect(error.isNotEmpty, true);
+        expect(error.statusCode, isNot(200));
+        expect(error.statusMessage.isNotEmpty, true);
       },
     );
   });
@@ -97,7 +98,8 @@ void main() {
         throw Exception('Result should be failure.');
       },
       failure: (error) {
-        expect(error.isNotEmpty, true);
+        expect(error.statusCode, isNot(200));
+        expect(error.statusMessage.isNotEmpty, true);
       },
     );
   });
