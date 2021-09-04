@@ -1,3 +1,9 @@
+## 0.2.0+2
+
+ - **FIX**: add test for error.
+ - **CHORE**: publish packages.
+ - **CHORE**: publish packages.
+
 ## 0.2.0+1
 
  - **FIX**: remove parser methods to ApklisErrorModel.
