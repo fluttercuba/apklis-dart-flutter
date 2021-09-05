@@ -9,7 +9,7 @@ theme:
   favicon: resources/avatar.png
   language: es
   features:
-    # - navigation.instant
+    - navigation.instant
     # - navigation.tabs
   palette:
     primary: black
@@ -17,6 +17,10 @@ theme:
 
 nav:
   - Inicio: index.md
+  - Apklis Web API: packages/apklis_web_api.md
+  - Apklis Http Web API: packages/apklis_http_web_api.md
+  - Apklis Dio Web API: packages/apklis_dio_web_api.md
+  - Apklis Direct Payment Checker: packages/apklis_direct_payment_checker.md
 
 markdown_extensions:
   - pymdownx.highlight
