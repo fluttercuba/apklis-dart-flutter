@@ -18,12 +18,12 @@
       ]
     },
     {
-      "login": "dany2709",
-      "name": "Daniel Pena Calleja",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37417178?v=4",
-      "profile": "https://github.com/dany2709",
+      "login": "alejandrogiubel",
+      "name": "Alejandro Giubel Hernández Arbelo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36578847?v=4",
+      "profile": "https://alejandrogiubel.github.io/",
       "contributions": [
-        "bug"
+        "code"
       ]
     },
     {
@@ -36,12 +36,12 @@
       ]
     },
     {
-      "login": "alejandrogiubel",
-      "name": "Alejandro Giubel Hernández Arbelo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/36578847?v=4",
-      "profile": "https://alejandrogiubel.github.io/",
+      "login": "dany2709",
+      "name": "Daniel Pena Calleja",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37417178?v=4",
+      "profile": "https://github.com/dany2709",
       "contributions": [
-        "code"
+        "bug"
       ]
     }
   ],
