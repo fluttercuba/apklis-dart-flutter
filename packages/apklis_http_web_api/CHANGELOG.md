@@ -1,3 +1,8 @@
+## 0.1.0+3
+
+ - **DOCS**: add docs to packages.
+ - **DOCS**: remove all-contributors badge from package README.
+
 ## 0.1.0+2
 
  - Update a dependency to the latest release.

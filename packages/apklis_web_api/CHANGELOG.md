@@ -1,3 +1,11 @@
+## 0.3.0
+
+> Note: This release has breaking changes.
+
+ - **DOCS**: add docs to packages.
+ - **DOCS**: remove all-contributors badge from package README.
+ - **BREAKING** **FIX**: add null to abi and screenshots properties of ApklisReleaseModel.
+
 ## 0.2.0+2
 
  - **FIX**: add test for error.
