@@ -1,3 +1,10 @@
+## 0.2.0
+
+> Note: This release has breaking changes.
+
+ - **CHORE**: publish packages.
+ - **BREAKING** **FIX**: change BaseClient by Client.
+
 ## 0.1.0+3
 
  - **DOCS**: add docs to packages.
