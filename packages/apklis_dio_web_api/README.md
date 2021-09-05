@@ -10,9 +10,7 @@
 [![Github Stars](https://img.shields.io/github/stars/fluttercuba/apklis-dart-flutter?style=flat&logo=github)](https://github.com/fluttercuba/apklis-dart-flutter/stargazers)
 [![Github Forks](https://img.shields.io/github/forks/fluttercuba/apklis-dart-flutter?style=flat&logo=github)](https://github.com/fluttercuba/apklis-dart-flutter/network/members)
 [![Github Watchers](https://img.shields.io/github/watchers/fluttercuba/apklis-dart-flutter?style=flat&logo=github)](https://github.com/fluttercuba/apklis-dart-flutter)
-[![GitHub contributors](https://img.shields.io/github/contributors/fluttercuba/apklis-dart-flutter?label=code%20contributors)](https://github.com/fluttercuba/apklis-dart-flutter/graphs/contributors) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![GitHub contributors](https://img.shields.io/github/contributors/fluttercuba/apklis-dart-flutter?label=code%20contributors)](https://github.com/fluttercuba/apklis-dart-flutter/graphs/contributors)
 
 ---
 
