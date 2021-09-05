@@ -20,9 +20,9 @@ Implementación concreta del paquete [apklis_web_api](https://pub.dev/packages/a
 
 ```dart
 import 'package:apklis_http_web_api/apklis_http_web_api.dart';
-import 'package:http/http.dart';
+import 'package:http/http.dart' as http;
 
-final httpClient = Client();
+final httpClient = http.Client();
 final api = ApklisHttpWebApi(httpClient);
 final model = await api.get(['com.example.nova.prosalud']);
 model.when(

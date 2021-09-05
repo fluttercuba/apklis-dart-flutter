@@ -11,7 +11,7 @@ import 'package:http/http.dart';
 class ApklisHttpWebApi extends ApklisWebApi {
   ApklisHttpWebApi(this.httpClient);
 
-  final BaseClient httpClient;
+  final Client httpClient;
 
   @override
   Future<ApklisApiResult> get(List<String> apps) async {
