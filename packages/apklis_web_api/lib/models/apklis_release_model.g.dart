@@ -8,8 +8,8 @@ part of 'apklis_release_model.dart';
 
 ApklisReleaseModel _$ApklisReleaseModelFromJson(Map<String, dynamic> json) {
   return ApklisReleaseModel(
-    abi: (json['abi'] as List<dynamic>)
-        .map((e) => ApklisAbiModel.fromJson(e as Map<String, dynamic>))
+    abi: (json['abi'] as List<dynamic>?)
+        ?.map((e) => ApklisAbiModel.fromJson(e as Map<String, dynamic>))
         .toList(),
     noAbi: json['no_abi'] as bool,
     versionName: json['version_name'] as String,
@@ -20,8 +20,8 @@ ApklisReleaseModel _$ApklisReleaseModelFromJson(Map<String, dynamic> json) {
     permissions: (json['permissions'] as List<dynamic>)
         .map((e) => ApklisPermissionModel.fromJson(e as Map<String, dynamic>))
         .toList(),
-    screenshots: (json['screenshots'] as List<dynamic>)
-        .map((e) => ApklisScreenshotModel.fromJson(e as Map<String, dynamic>))
+    screenshots: (json['screenshots'] as List<dynamic>?)
+        ?.map((e) => ApklisScreenshotModel.fromJson(e as Map<String, dynamic>))
         .toList(),
     changelog: json['changelog'] as String,
     versionCode: json['version_code'] as int,
@@ -39,7 +39,7 @@ ApklisReleaseModel _$ApklisReleaseModelFromJson(Map<String, dynamic> json) {
 
 Map<String, dynamic> _$ApklisReleaseModelToJson(ApklisReleaseModel instance) =>
     <String, dynamic>{
-      'abi': instance.abi.map((e) => e.toJson()).toList(),
+      'abi': instance.abi?.map((e) => e.toJson()).toList(),
       'no_abi': instance.noAbi,
       'version_name': instance.versionName,
       'package_name': instance.packageName,
@@ -47,7 +47,7 @@ Map<String, dynamic> _$ApklisReleaseModelToJson(ApklisReleaseModel instance) =>
       'version_sdk_name': instance.versionSdkName,
       'version_target_sdk_name': instance.versionTargetSdkName,
       'permissions': instance.permissions.map((e) => e.toJson()).toList(),
-      'screenshots': instance.screenshots.map((e) => e.toJson()).toList(),
+      'screenshots': instance.screenshots?.map((e) => e.toJson()).toList(),
       'changelog': instance.changelog,
       'version_code': instance.versionCode,
       'published': instance.published,
