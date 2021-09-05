@@ -28,7 +28,7 @@ class ApklisReleaseModel {
     required this.deleted,
   });
 
-  final List<ApklisAbiModel> abi;
+  final List<ApklisAbiModel>? abi;
   @JsonKey(name: 'no_abi')
   final bool noAbi;
   @JsonKey(name: 'version_name')
@@ -42,7 +42,7 @@ class ApklisReleaseModel {
   @JsonKey(name: 'version_target_sdk_name')
   final String versionTargetSdkName;
   final List<ApklisPermissionModel> permissions;
-  final List<ApklisScreenshotModel> screenshots;
+  final List<ApklisScreenshotModel>? screenshots;
   final String changelog;
   @JsonKey(name: 'version_code')
   final int versionCode;
