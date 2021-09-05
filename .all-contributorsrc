@@ -16,6 +16,15 @@
         "test",
         "bug"
       ]
+    },
+    {
+      "login": "dany2709",
+      "name": "Daniel Pena Calleja",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37417178?v=4",
+      "profile": "https://github.com/dany2709",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
