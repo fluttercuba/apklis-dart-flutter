@@ -14,7 +14,7 @@
 [![Github Forks](https://img.shields.io/github/forks/fluttercuba/apklis-dart-flutter?style=flat&logo=github)](https://github.com/fluttercuba/apklis-dart-flutter/network/members)
 [![Github Watchers](https://img.shields.io/github/watchers/fluttercuba/apklis-dart-flutter?style=flat&logo=github)](https://github.com/fluttercuba/apklis-dart-flutter)
 [![GitHub contributors](https://img.shields.io/github/contributors/fluttercuba/apklis-dart-flutter?label=code%20contributors)](https://github.com/fluttercuba/apklis-dart-flutter/graphs/contributors) <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ---
@@ -41,6 +41,7 @@ Gracias a estas personas maravillosas ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://alejandrogiubel.github.io/"><img src="https://avatars.githubusercontent.com/u/36578847?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alejandro Giubel Hernández Arbelo</b></sub></a><br /><a href="https://github.com/fluttercuba/apklis-dart-flutter/commits?author=alejandrogiubel" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/kenriortega"><img src="https://avatars.githubusercontent.com/u/53656046?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kenrique Ortega </b></sub></a><br /><a href="https://github.com/fluttercuba/apklis-dart-flutter/commits?author=kenriortega" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/dany2709"><img src="https://avatars.githubusercontent.com/u/37417178?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Pena Calleja</b></sub></a><br /><a href="https://github.com/fluttercuba/apklis-dart-flutter/issues?q=author%3Adany2709" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/Yeikel200"><img src="https://avatars.githubusercontent.com/u/26438532?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yeikel Uriarte Arteaga</b></sub></a><br /><a href="https://github.com/fluttercuba/apklis-dart-flutter/commits?author=Yeikel200" title="Code">💻</a></td>
   </tr>
 </table>
 
