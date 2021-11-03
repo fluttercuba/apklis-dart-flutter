@@ -52,6 +52,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "alaincj",
+      "name": "AlainCJ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82970898?v=4",
+      "profile": "https://github.com/alaincj",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
