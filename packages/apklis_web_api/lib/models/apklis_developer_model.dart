@@ -22,7 +22,7 @@ class ApklisDeveloperModel {
   @JsonKey(name: 'last_name')
   final String lastName;
   final String fullname;
-  final String avatar;
+  final String? avatar;
   final String? background;
   final int apps;
   @JsonKey(name: 'is_active')

@@ -1,3 +1,7 @@
+## 0.3.0+1
+
+ - **FIX**: make avatar of ApklisDeveloperModel nullable.
+
 ## 0.3.0
 
 > Note: This release has breaking changes.
@@ -9,8 +13,6 @@
 ## 0.2.0+2
 
  - **FIX**: add test for error.
- - **CHORE**: publish packages.
- - **CHORE**: publish packages.
 
 ## 0.2.0+1
 

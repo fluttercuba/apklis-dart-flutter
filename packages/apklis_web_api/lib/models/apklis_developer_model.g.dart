@@ -12,7 +12,7 @@ ApklisDeveloperModel _$ApklisDeveloperModelFromJson(Map<String, dynamic> json) {
     firstName: json['first_name'] as String,
     lastName: json['last_name'] as String,
     fullname: json['fullname'] as String,
-    avatar: json['avatar'] as String,
+    avatar: json['avatar'] as String?,
     background: json['background'] as String?,
     apps: json['apps'] as int,
     isActive: json['is_active'] as bool,
